@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 650px;
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 300px;
+    font-weight: 500;
+}
+.subtitulo {
+    font-family: "lexend";
+    font-size: 30px;
+ 
+}
+body{
+    background-color: #598C38;  
+}
+.imagem{
+    height: 355px;
+}
+.divisao{
+    background-color: #F4F3F3;
+    width: 380px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.display{
+display: flex;
+justify-content: center;
+}
+.texto{
+    font-family: "lexend";
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+}
+.nome {
+    font-family: "lexend";
+    font-size: 40px;
+    color: #F4F3F3;
+    font-weight: 500;
+}
+.rede{
+    font-family: "lexend";
+    font-size: 24px;
+    font-weight: 300;
+}
+.sobre {
+    background-color:#ffffff;
+}
+.sobre .nome {
+color:black;
+}
+h3 {
+    color: #598C38;
+    font-family: "lexend";
+    font-size: 40px;
+}
+.nossoImpacto{
+    font-family:"lexend";
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #476B30;
+}
+section, footer, header{
+    padding: 0px 150px;
+}
+.sobre{
+    padding: 70px 150px;
+}
+header{
+    padding-top: 200px;
+}
+.impacto1{
+    display: flex;
+    align-items: center;
+}
+.tituloLixo{
+    color: #ffffff;
+    height: 80px;
+}
+.lixeira{
+    height: 205px;
+    font-family: "lexend";
+    font-size: 80px;
+}
+.reciclagem{
+    height: 205px;
+    font-family: "lexend";
+    font-size: 80px;
+}
+.tutiloRecicla{
+    color: #ffffff;
+    height: 80px;
+}
+.impacto{
+    display: flex;
+    align-items: center;
+}
+.LixoTxt{
+    font-family: "lexend";
+    font-size: 25px;
+}
+.impacto3{
+    display: flex;
+    align-items: center;
+}
+.LixoTxt2{
+    color: #ffffff;
+    height: 80px;
+}
+.Casa{
+    height: 205px;
+    font-family: "lexend";
+    font-size: 80px;
+}
